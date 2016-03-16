@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "serve": "node_modules/.bin/serve",
-    "watch": "node_modules/.bin/serve & node_modules/.bin/node-sass style.scss main.css -w & node_modules/.bin/watchify main.js -o bundle.js",
+    "watch": "node_modules/.bin/node-sass styles.scss main.css -w & node_modules/.bin/watchify main.js -o bundle.js",
     "bundle": "node_modules/.bin/browserify main.js -o bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run watch & npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "say hello to my little friend and my big friend"
   },
   "author": "",
   "license": "ISC",
