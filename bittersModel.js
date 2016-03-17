@@ -4,6 +4,6 @@ module.exports = Backbone.Model.extend({
   urlRoot: 'http://tiny-tiny.herokuapp.com/collections/justinbitters',
   id: '_id',
   initialize: function() {
-    log('here I am rock you like a hurricane');
+    console.log('here I am rock you like a hurricane');
   }
 });

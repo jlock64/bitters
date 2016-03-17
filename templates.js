@@ -13,6 +13,11 @@ module.exports = {
   ].join(''),
 
   createPost: [
-
+    `<form class="">
+      <input type="text" name="name" placeholder="Name">
+      <input type="text" name="title" placeholder="Title">
+      <textarea name="bitterPost" rows="8" cols="40" placeholder="What are you bitter about?"></textarea>
+      <button class="submitPost" type="submit" name="button">Submit</button>
+    </form>`
   ].join('')
 }

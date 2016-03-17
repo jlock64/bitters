@@ -17,13 +17,13 @@ module.exports = Backbone.View.extend({
     this.model.destroy();
   },
   editPost: function() {
-    this.model.set({
-      user: .val(),
-      time: .val(),
-      title: .val(),
-      post: .val()
-
-    });
+    // this.model.set({
+    //   user: .val(),
+    //   time: .val(),
+    //   title: .val(),
+    //   post: .val()
+    //
+    // });
   },
   toggleEdit: function() {
     this.$el.find('editSection').toggleClass('editing');
